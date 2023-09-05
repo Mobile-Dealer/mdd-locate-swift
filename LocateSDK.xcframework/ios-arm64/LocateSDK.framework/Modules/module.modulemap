@@ -1,0 +1,11 @@
+framework module LocateSDK {
+  umbrella header "LocateSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module LocateSDK.Swift {
+  header "LocateSDK-Swift.h"
+  requires objc
+}

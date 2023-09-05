@@ -1,0 +1,1193 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LocateSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "LocateSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MddLocateSDK",
+        "printedName": "MddLocateSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apikey",
+            "printedName": "apikey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9LocateSDK03MddaB0V6apikeySSSgvpZ",
+            "mangledName": "$s9LocateSDK03MddaB0V6apikeySSSgvpZ",
+            "moduleName": "LocateSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9LocateSDK03MddaB0V6apikeySSSgvgZ",
+                "mangledName": "$s9LocateSDK03MddaB0V6apikeySSSgvgZ",
+                "moduleName": "LocateSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rssiNotification",
+            "printedName": "rssiNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9LocateSDK03MddaB0V16rssiNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s9LocateSDK03MddaB0V16rssiNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "LocateSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9LocateSDK03MddaB0V16rssiNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s9LocateSDK03MddaB0V16rssiNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "LocateSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apikey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK03MddaB0V9configure6apikeyySS_tFZ",
+            "mangledName": "$s9LocateSDK03MddaB0V9configure6apikeyySS_tFZ",
+            "moduleName": "LocateSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startTrackingTags",
+            "printedName": "startTrackingTags(username:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK03MddaB0V17startTrackingTags8usernameySS_tFZ",
+            "mangledName": "$s9LocateSDK03MddaB0V17startTrackingTags8usernameySS_tFZ",
+            "moduleName": "LocateSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopTrackingTags",
+            "printedName": "stopTrackingTags()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK03MddaB0V16stopTrackingTagsyyFZ",
+            "mangledName": "$s9LocateSDK03MddaB0V16stopTrackingTagsyyFZ",
+            "moduleName": "LocateSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startDetecting",
+            "printedName": "startDetecting(trackingTagId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK03MddaB0V14startDetecting13trackingTagIdySS_tFZ",
+            "mangledName": "$s9LocateSDK03MddaB0V14startDetecting13trackingTagIdySS_tFZ",
+            "moduleName": "LocateSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDetectedRssi",
+            "printedName": "getDetectedRssi(trackingTagId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK03MddaB0V15getDetectedRssi13trackingTagIdSiSS_tKFZ",
+            "mangledName": "$s9LocateSDK03MddaB0V15getDetectedRssi13trackingTagIdSiSS_tKFZ",
+            "moduleName": "LocateSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopDetecting",
+            "printedName": "stopDetecting(trackingTagId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK03MddaB0V13stopDetecting13trackingTagIdySS_tFZ",
+            "mangledName": "$s9LocateSDK03MddaB0V13stopDetecting13trackingTagIdySS_tFZ",
+            "moduleName": "LocateSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pair",
+            "printedName": "pair(orgId:assetId:trackingTagId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK03MddaB0V4pair5orgId05assetF0011trackingTagF0ySS_S2StFZ",
+            "mangledName": "$s9LocateSDK03MddaB0V4pair5orgId05assetF0011trackingTagF0ySS_S2StFZ",
+            "moduleName": "LocateSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAssetData",
+            "printedName": "loadAssetData(orgId:assetId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK03MddaB0V13loadAssetData5orgId05assetH0ySS_SStFZ",
+            "mangledName": "$s9LocateSDK03MddaB0V13loadAssetData5orgId05assetH0ySS_SStFZ",
+            "moduleName": "LocateSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAssetTrackingTagData",
+            "printedName": "loadAssetTrackingTagData(orgId:assetId:trackingTagId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK03MddaB0V24loadAssetTrackingTagData5orgId05assetJ008trackinggJ0ySS_S2StFZ",
+            "mangledName": "$s9LocateSDK03MddaB0V24loadAssetTrackingTagData5orgId05assetJ008trackinggJ0ySS_S2StFZ",
+            "moduleName": "LocateSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9LocateSDK03MddaB0V",
+        "mangledName": "$s9LocateSDK03MddaB0V",
+        "moduleName": "LocateSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LocateSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "LocateSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MddDetector",
+        "printedName": "MddDetector",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MddDetector",
+                "printedName": "LocateSDK.MddDetector",
+                "usr": "c:@M@LocateSDK@objc(cs)MddDetector"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LocateSDK@objc(cs)MddDetector(im)init",
+            "mangledName": "$s9LocateSDK11MddDetectorCACycfc",
+            "moduleName": "LocateSDK",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "startUpdatingRssi",
+            "printedName": "startUpdatingRssi(trackingTagId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK11MddDetectorC17startUpdatingRssi13trackingTagIdySS_tF",
+            "mangledName": "$s9LocateSDK11MddDetectorC17startUpdatingRssi13trackingTagIdySS_tF",
+            "moduleName": "LocateSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopUpdatingRssi",
+            "printedName": "stopUpdatingRssi(trackingTagId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK11MddDetectorC16stopUpdatingRssi13trackingTagIdySS_tF",
+            "mangledName": "$s9LocateSDK11MddDetectorC16stopUpdatingRssi13trackingTagIdySS_tF",
+            "moduleName": "LocateSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didFailWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LocateSDK@objc(cs)MddDetector(im)locationManager:didFailWithError:",
+            "mangledName": "$s9LocateSDK11MddDetectorC15locationManager_16didFailWithErrorySo010CLLocationF0C_s0J0_ptF",
+            "moduleName": "LocateSDK",
+            "objc_name": "locationManager:didFailWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didRangeBeacons:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLBeacon]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLBeacon",
+                    "printedName": "CoreLocation.CLBeacon",
+                    "usr": "c:objc(cs)CLBeacon"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLBeaconRegion",
+                "printedName": "CoreLocation.CLBeaconRegion",
+                "usr": "c:objc(cs)CLBeaconRegion"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LocateSDK@objc(cs)MddDetector(im)locationManager:didRangeBeacons:inRegion:",
+            "mangledName": "$s9LocateSDK11MddDetectorC15locationManager_15didRangeBeacons2inySo010CLLocationF0C_SaySo8CLBeaconCGSo0L6RegionCtF",
+            "moduleName": "LocateSDK",
+            "objc_name": "locationManager:didRangeBeacons:inRegion:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LocateSDK@objc(cs)MddDetector",
+        "mangledName": "$s9LocateSDK11MddDetectorC",
+        "moduleName": "LocateSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LocateSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "LocateSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MddTagTracker",
+        "printedName": "MddTagTracker",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "startTracking",
+            "printedName": "startTracking(username:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK13MddTagTrackerC13startTracking8usernameySS_tF",
+            "mangledName": "$s9LocateSDK13MddTagTrackerC13startTracking8usernameySS_tF",
+            "moduleName": "LocateSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopTracking",
+            "printedName": "stopTracking()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK13MddTagTrackerC12stopTrackingyyF",
+            "mangledName": "$s9LocateSDK13MddTagTrackerC12stopTrackingyyF",
+            "moduleName": "LocateSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MddTagTracker",
+                "printedName": "LocateSDK.MddTagTracker",
+                "usr": "c:@M@LocateSDK@objc(cs)MddTagTracker"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LocateSDK@objc(cs)MddTagTracker(im)init",
+            "mangledName": "$s9LocateSDK13MddTagTrackerCACycfc",
+            "moduleName": "LocateSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManagerDidChangeAuthorization",
+            "printedName": "locationManagerDidChangeAuthorization(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LocateSDK@objc(cs)MddTagTracker(im)locationManagerDidChangeAuthorization:",
+            "mangledName": "$s9LocateSDK13MddTagTrackerC37locationManagerDidChangeAuthorizationyySo010CLLocationG0CF",
+            "moduleName": "LocateSDK",
+            "objc_name": "locationManagerDidChangeAuthorization:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didFailWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LocateSDK@objc(cs)MddTagTracker(im)locationManager:didFailWithError:",
+            "mangledName": "$s9LocateSDK13MddTagTrackerC15locationManager_16didFailWithErrorySo010CLLocationG0C_s0K0_ptF",
+            "moduleName": "LocateSDK",
+            "objc_name": "locationManager:didFailWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didUpdateLocations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLLocation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocation",
+                    "printedName": "CoreLocation.CLLocation",
+                    "usr": "c:objc(cs)CLLocation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LocateSDK@objc(cs)MddTagTracker(im)locationManager:didUpdateLocations:",
+            "mangledName": "$s9LocateSDK13MddTagTrackerC15locationManager_18didUpdateLocationsySo010CLLocationG0C_SaySo0K0CGtF",
+            "moduleName": "LocateSDK",
+            "objc_name": "locationManager:didUpdateLocations:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didRange:satisfying:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLBeacon]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLBeacon",
+                    "printedName": "CoreLocation.CLBeacon",
+                    "usr": "c:objc(cs)CLBeacon"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLBeaconIdentityConstraint",
+                "printedName": "CoreLocation.CLBeaconIdentityConstraint",
+                "usr": "c:objc(cs)CLBeaconIdentityConstraint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LocateSDK@objc(cs)MddTagTracker(im)locationManager:didRangeBeacons:satisfyingConstraint:",
+            "mangledName": "$s9LocateSDK13MddTagTrackerC15locationManager_8didRange10satisfyingySo010CLLocationG0C_SaySo8CLBeaconCGSo0L18IdentityConstraintCtF",
+            "moduleName": "LocateSDK",
+            "objc_name": "locationManager:didRangeBeacons:satisfyingConstraint:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LocateSDK@objc(cs)MddTagTracker",
+        "mangledName": "$s9LocateSDK13MddTagTrackerC",
+        "moduleName": "LocateSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LocateSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 38,
+      "value": "\"9B0C5617-4211-4C60-937D-38501DF4FA4F\""
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 419,
+      "length": 6,
+      "value": "\"%04X\""
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 725,
+      "length": 21,
+      "value": "\"mddRssiNotification\""
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 2335,
+      "length": 44,
+      "value": "\"API Key must be set to start tracking tags\""
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 289,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 336,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 848,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 859,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 912,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 923,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 1170,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1221,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1232,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1285,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1296,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1821,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 487,
+      "length": 9,
+      "value": "\"UNKNOWN\""
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1154,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 235,
+      "length": 13,
+      "value": "\"LocateSDK.MddTagTracker\""
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2214,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3064,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3084,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 3174,
+      "length": 92,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 3220,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 3265,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3435,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 100,
+      "length": 6,
+      "value": "\"LocateSDK.MddAPI\""
+    }
+  ]
+}
