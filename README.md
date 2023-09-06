@@ -10,7 +10,9 @@ A description of this package.
 
 3. Click "Add Package"
 
-4. Check the box for MddLocateSDK > Add Package
+4. Check the box for MddLocateSDK
+
+5. Click "Add Package"
 
 ```swift
 //
