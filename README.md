@@ -2,6 +2,12 @@
 
 A description of this package.
 
+### Swift Package Manager
+
+1. Swift Package Manager is distributed with Xcode. To start adding the Amplify Libraries to your iOS project, open your project in Xcode 
+
+2. Enter the MDD Library for the GitHub repo URL (`https://github.com/Mobile-Dealer/mdd-locate-swift`) into the search bar
+
 ```swift
 //
 //  ContentView.swift
