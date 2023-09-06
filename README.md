@@ -8,6 +8,10 @@ A description of this package.
 
 2. Enter the MDD Library for the GitHub repo URL (`https://github.com/Mobile-Dealer/mdd-locate-swift`) into the search bar
 
+3. Click "Add Package"
+
+4. Check the box for MddLocateSDK > Add Package
+
 ```swift
 //
 //  ContentView.swift
