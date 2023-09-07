@@ -1,25 +1,37 @@
 # MddLocateSDK
 
-A description of this package.
+This Mobile Dealer Data package will allow you to integrate our asset tracking platform into your SwiftUI project.  Allowing you to add the tracking tag asset tracking functionality into your app.  Please reach out to support@mdd.io with any questions!
 
-### Swift Package Manager
+### Adding MddLocateSKD package to your app through Swift Package Manager
+##### Swift Package Manager is distributed with Xcode. To start adding the Libraries to your iOS project:
 
-1. Swift Package Manager is distributed with Xcode. To start adding the Amplify Libraries to your iOS project, open your project in Xcode 
+1. Open your project in Xcode
+2. Navigate to `File` then `Add Packages...`
 
-2. Enter the MDD Library for the GitHub repo URL (`https://github.com/Mobile-Dealer/mdd-locate-swift`) into the search bar
+3. Enter the MDD Library for the GitHub repo URL (`https://github.com/Mobile-Dealer/mdd-locate-swift`) into the search bar
+<img width="840" alt="Screenshot 2023-09-07 at 7 48 15 AM" src="https://github.com/Mobile-Dealer/mdd-locate-swift/assets/98433737/a782465e-ea83-4605-8c69-106f6a22cfa7">
 
-3. Click "Add Package"
 
-4. Check the box for MddLocateSDK
+4. Click "Add Package"
+<img width="648" alt="Screenshot 2023-09-07 at 7 49 14 AM" src="https://github.com/Mobile-Dealer/mdd-locate-swift/assets/98433737/94d81780-282f-41c0-8e97-d25c8fe503e8">
 
-5. Click "Add Package"
+5. Check the box for MddLocateSDK
+<img width="649" alt="Screenshot 2023-09-07 at 7 49 49 AM" src="https://github.com/Mobile-Dealer/mdd-locate-swift/assets/98433737/38a9072d-800d-4069-9ab2-8689e4100a9a">
 
+6. Click "Add Package"
+
+##### Thats it!  Now you are ready to test the MddLocateSDK within your own app!
+
+
+
+### Example code using MddLocateSDK
 ```swift
 //
 //  ContentView.swift
 //  LocateTesting
 //
-//  Created by Ryan Vink on 8/29/23.
+//  Created by Mobile Dealer Data, LLC
+//  Confidential 
 //
 
 import SwiftUI
