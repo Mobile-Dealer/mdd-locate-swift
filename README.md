@@ -44,7 +44,13 @@ To ensure your app functions correctly with the MddLocateSDK:
 2. Select the app target from the list of targets.
 3. Navigate to the "Signing & Capabilities" tab.
 4. Click the `+ Capability` button and add `Background Modes`.
+<img width="882" alt="Screenshot 2023-09-07 at 10 09 18 AM" src="https://github.com/Mobile-Dealer/mdd-locate-swift/assets/98433737/a142eba9-891f-4fa4-bd6b-d1b501b257aa">
+
+
 5. In the "Background Modes" section, check the boxes for `Location updates` and `Uses Bluetooth LE accessories`.
+<img width="1268" alt="Screenshot 2023-09-07 at 11 40 36 AM" src="https://github.com/Mobile-Dealer/mdd-locate-swift/assets/98433737/0f0b823e-b9f4-451a-a2c0-9d98e2676b2a">
+
+
 
 ### 4. Importing Necessary Libraries
 
