@@ -1,6 +1,3 @@
-Certainly! Let's enhance and restructure the documentation for your MddLocateSDK, ensuring all the necessary steps are clear and in order. 
-
----
 
 # MddLocateSDK Documentation
 
