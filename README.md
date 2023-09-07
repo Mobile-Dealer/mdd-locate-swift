@@ -1,30 +1,68 @@
-# MddLocateSDK
+Certainly! Let's enhance and restructure the documentation for your MddLocateSDK, ensuring all the necessary steps are clear and in order. 
 
-This Mobile Dealer Data package will allow you to integrate our asset tracking platform into your SwiftUI project.  Allowing you to add the tracking tag asset tracking functionality into your app.  Please reach out to support@mdd.io with any questions!
+---
 
-### Adding MddLocateSKD package to your app through Swift Package Manager
-##### Swift Package Manager is distributed with Xcode. To start adding the Libraries to your iOS project:
+# MddLocateSDK Documentation
 
-1. Open your project in Xcode
-2. Navigate to `File` then `Add Packages...`
+Welcome to the MddLocateSDK documentation. This SDK allows you to integrate the Mobile Dealer Data asset tracking platform into your SwiftUI project, enabling tracking tag asset functionality in your app. If you have any questions, please don't hesitate to contact us at [support@mdd.io](mailto:support@mdd.io).
 
-3. Enter the MDD Library for the GitHub repo URL (`https://github.com/Mobile-Dealer/mdd-locate-swift`) into the search bar
-<img width="840" alt="Screenshot 2023-09-07 at 7 48 15 AM" src="https://github.com/Mobile-Dealer/mdd-locate-swift/assets/98433737/a782465e-ea83-4605-8c69-106f6a22cfa7">
+## Initial Setup
 
+### 1. Adding the MddLocateSDK Package
 
-4. Click "Add Package"
-<img width="648" alt="Screenshot 2023-09-07 at 7 49 14 AM" src="https://github.com/Mobile-Dealer/mdd-locate-swift/assets/98433737/94d81780-282f-41c0-8e97-d25c8fe503e8">
+To integrate MddLocateSDK into your project using the Swift Package Manager:
 
-5. Check the box for MddLocateSDK
-<img width="649" alt="Screenshot 2023-09-07 at 7 49 49 AM" src="https://github.com/Mobile-Dealer/mdd-locate-swift/assets/98433737/38a9072d-800d-4069-9ab2-8689e4100a9a">
+1. **Open your project in Xcode**.
+2. Navigate to `File` → `Add Packages...`.
+3. In the search bar, enter the GitHub repo URL for the MDD Library: `https://github.com/Mobile-Dealer/mdd-locate-swift`.
 
-6. Click "Add Package"
+   ![MDD Library Search](https://github.com/Mobile-Dealer/mdd-locate-swift/assets/98433737/a782465e-ea83-4605-8c69-106f6a22cfa7)
 
-##### Thats it!  Now you are ready to test the MddLocateSDK within your own app!
+4. Click "Add Package".
+   
+   ![Add Package](https://github.com/Mobile-Dealer/mdd-locate-swift/assets/98433737/94d81780-282f-41c0-8e97-d25c8fe503e8)
 
+5. Ensure the checkbox for `MddLocateSDK` is selected.
 
+   ![Select SDK](https://github.com/Mobile-Dealer/mdd-locate-swift/assets/98433737/38a9072d-800d-4069-9ab2-8689e4100a9a)
 
-### Example code using MddLocateSDK
+6. Click "Add Package" again.
+
+### 2. Setting Up Required Permissions
+
+To ensure your app functions correctly with the MddLocateSDK:
+
+1. **Open your app's `Info.plist`**.
+2. Add a new entry with the key `NSLocationWhenInUseUsageDescription`.
+3. Set the value to a string describing why your app needs location access. For instance:
+
+   ```xml
+   <key>NSLocationWhenInUseUsageDescription</key>
+   <string>We use your location to provide beacon scanning functionality related to vehicles in your vicinity.</string>
+   ```
+
+### 3. Enabling Required Capabilities
+
+1. Open your project settings by clicking on the project name in the Project Navigator.
+2. Select the app target from the list of targets.
+3. Navigate to the "Signing & Capabilities" tab.
+4. Click the `+ Capability` button and add `Background Modes`.
+5. In the "Background Modes" section, check the boxes for `Location updates` and `Uses Bluetooth LE accessories`.
+
+### 4. Importing Necessary Libraries
+
+In the SwiftUI views or other Swift files where you intend to use the MddLocateSDK, make sure to import the required libraries:
+
+```swift
+import SwiftUI
+import LocateSDK
+import Combine
+```
+
+## Example Usage
+
+Here's a sample SwiftUI view that demonstrates how to use the MddLocateSDK:
+
 ```swift
 //
 //  ContentView.swift
