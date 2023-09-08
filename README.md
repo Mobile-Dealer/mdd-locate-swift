@@ -3,6 +3,15 @@
 
 Welcome to the MddLocateSDK documentation. This SDK allows you to integrate the Mobile Dealer Data asset tracking platform into your SwiftUI project, enabling tracking tag asset functionality in your app. If you have any questions, please don't hesitate to contact us at [support@mdd.io](mailto:support@mdd.io).
 
+## SDK Variables and Definitions
+
+- `MddLocateSDK.configure(apikey: String)`: Configures the MddLocateSDK with the given API key.
+- `MddLocateSDK.startTrackingTags(username: String)`: Starts the background tracking. Currently, it doesn't push the data anywhere.
+- `MddLocateSDK.startDetecting(trackingTagId: String)`: Initiates the detection of a tracking tag based on its ID.
+- `MddLocateSDK.stopDetecting(trackingTagId: String)`: Stops the detection of a tracking tag based on its ID.
+- `MddLocateSDK.getDetectedRssi(trackingTagId: String)`: Returns the Received Signal Strength Indication (RSSI) for a detected tracking tag.
+- `MddLocateSDK.rssiNotification`: A NotificationCenter publisher that emits notifications when there's an update to the RSSI of a detected tracking tag.
+
 ## Initial Setup
 
 ### 1. Adding the MddLocateSDK Package
@@ -12,7 +21,7 @@ To integrate MddLocateSDK into your project using the Swift Package Manager:
 1. **Open your project in Xcode**.
 2. Navigate to `File` → `Add Packages...`.
 3. In the search bar, enter the GitHub repo URL for the MDD Library: `https://github.com/Mobile-Dealer/mdd-locate-swift`.
-
+   
    ![MDD Library Search](https://github.com/Mobile-Dealer/mdd-locate-swift/assets/98433737/a782465e-ea83-4605-8c69-106f6a22cfa7)
 
 4. Click "Add Package".
@@ -46,11 +55,8 @@ To ensure your app functions correctly with the MddLocateSDK:
 4. Click the `+ Capability` button and add `Background Modes`.
 <img width="882" alt="Screenshot 2023-09-07 at 10 09 18 AM" src="https://github.com/Mobile-Dealer/mdd-locate-swift/assets/98433737/a142eba9-891f-4fa4-bd6b-d1b501b257aa">
 
-
 5. In the "Background Modes" section, check the boxes for `Location updates` and `Uses Bluetooth LE accessories`.
 <img width="1268" alt="Screenshot 2023-09-07 at 11 40 36 AM" src="https://github.com/Mobile-Dealer/mdd-locate-swift/assets/98433737/0f0b823e-b9f4-451a-a2c0-9d98e2676b2a">
-
-
 
 ### 4. Importing Necessary Libraries
 
@@ -160,8 +166,6 @@ struct ContentView: View {
     }
 }
 
-
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
@@ -169,3 +173,13 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 ```
+
+## Tips for Developers
+
+1. **Error Handling**: The provided example showcases basic SDK usage. However, consider adding comprehensive error handling, especially when calling methods like `MddLocateSDK.getDetectedRssi(trackingTagId: String)`.
+2. **Throttling**: If you're planning to frequently update UI elements based on SDK events, consider implementing throttling to avoid overwhelming the UI and improve performance.
+3. **UI/UX**: Always inform users when you're accessing their location. Ensure that the reasons are clear and the user experience is smooth.
+4. **Testing**: Before deploying your application, test the SDK integration in various scenarios to ensure that it works reliably in all situations.
+5. **Updates**: Keep an eye on the official MddLocateSDK repository for any updates or changes. Regularly updating the SDK ensures that you're taking advantage of the latest features and improvements.
+
+Remember, if you have any questions or run into any issues, reach out to us at [support@mdd.io](mailto:support@mdd.io). We're here to help!
