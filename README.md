@@ -11,6 +11,7 @@ Welcome to the MddLocateSDK documentation. This SDK allows you to integrate the 
 - `MddLocateSDK.stopDetecting(trackingTagId: String)`: Stops the detection of a tracking tag based on its ID.
 - `MddLocateSDK.getDetectedRssi(trackingTagId: String)`: Returns the Received Signal Strength Indication (RSSI) for a detected tracking tag.
 - `MddLocateSDK.rssiNotification`: A NotificationCenter publisher that emits notifications when there's an update to the RSSI of a detected tracking tag.
+- `MddLocateSDK` `apikey`: You will need a valid `apikey` to use this `SDK` reachout to support@mdd.io to get started!
 
 ## Initial Setup
 
