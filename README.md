@@ -6,13 +6,14 @@ Welcome to the MddLocateSDK documentation. This SDK allows you to integrate the 
 ## SDK Variables and Definitions
 
 - `MddLocateSDK.configure(apikey: String)`: Configures the MddLocateSDK with the given API key.
+- `MddLocateSDK.configure(apikey: "YOUR_VALID_API_KEY_HERE")`
+- `MddLocateSDK` `apikey`: You will need a valid `apikey` to use this `SDK` reachout to support@mdd.io to get started!
 - `MddLocateSDK.startTrackingTags(username: String)`: Starts the background tracking. Currently, it doesn't push the data anywhere.
 - `MddLocateSDK.startDetecting(trackingTagId: String)`: Initiates the detection of a tracking tag based on its ID.
 - `MddLocateSDK.stopDetecting(trackingTagId: String)`: Stops the detection of a tracking tag based on its ID.
 - `MddLocateSDK.getDetectedRssi(trackingTagId: String)`: Returns the Received Signal Strength Indication (RSSI) for a detected tracking tag.
 - `MddLocateSDK.rssiNotification`: A NotificationCenter publisher that emits notifications when there's an update to the RSSI of a detected tracking tag.
-- `MddLocateSDK.configure(apikey: "YOUR_VALID_API_KEY_HERE")`
-- `MddLocateSDK` `apikey`: You will need a valid `apikey` to use this `SDK` reachout to support@mdd.io to get started!
+
 
 ## Initial Setup
 
