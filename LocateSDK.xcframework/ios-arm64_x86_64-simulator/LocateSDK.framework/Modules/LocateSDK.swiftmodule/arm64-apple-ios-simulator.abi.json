@@ -1227,14 +1227,21 @@
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
       "kind": "StringLiteral",
-      "offset": 805,
+      "offset": 782,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 841,
       "length": 8,
       "value": "\"apikey\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
       "kind": "StringLiteral",
-      "offset": 1304,
+      "offset": 1340,
       "length": 18,
       "value": "\"no data received\""
     },
