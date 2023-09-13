@@ -995,13 +995,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
-        "declKind": "Import",
-        "moduleName": "LocateSDK"
       }
     ],
     "json_format_version": 8
@@ -1213,21 +1206,42 @@
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
       "kind": "StringLiteral",
-      "offset": 605,
+      "offset": 152,
+      "length": 56,
+      "value": "\"https:\/\/zhnb4hhvvi.execute-api.us-west-2.amazonaws.com\""
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 725,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 1,
+      "value": "\"\/interaction\""
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 805,
       "length": 8,
       "value": "\"apikey\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
       "kind": "StringLiteral",
-      "offset": 747,
-      "length": 68,
-      "value": "\"https:\/\/zhnb4hhvvi.execute-api.us-west-2.amazonaws.com\/interaction\""
+      "offset": 1304,
+      "length": 18,
+      "value": "\"no data received\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
       "kind": "StringLiteral",
-      "offset": 119,
+      "offset": 100,
       "length": 6,
       "value": "\"LocateSDK.MddAPI\""
     }
