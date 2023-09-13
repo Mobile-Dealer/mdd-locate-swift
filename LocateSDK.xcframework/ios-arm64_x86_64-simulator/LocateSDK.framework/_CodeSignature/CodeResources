@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		MRPCDbcalJM7dq57TTV8ip5h/5g=
+		6QWyI0AxUB2FiNY/bWTV8MqxqY4=
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		MRPCDbcalJM7dq57TTV8ip5h/5g=
+		6QWyI0AxUB2FiNY/bWTV8MqxqY4=
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VbJ0htbhnNaqgH1kqD1WbOA6+g83ejG0nG8AXPq9GNc=
+			b7O82qJ8rOnkLXJDNIOt6LAyxaLvRXLd7URo/xXX1qc=
 			</data>
 		</dict>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VbJ0htbhnNaqgH1kqD1WbOA6+g83ejG0nG8AXPq9GNc=
+			b7O82qJ8rOnkLXJDNIOt6LAyxaLvRXLd7URo/xXX1qc=
 			</data>
 		</dict>
 		<key>Modules/LocateSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
