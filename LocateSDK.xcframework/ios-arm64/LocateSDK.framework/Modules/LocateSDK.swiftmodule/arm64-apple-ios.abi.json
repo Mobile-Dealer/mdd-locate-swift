@@ -1143,7 +1143,14 @@
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 1511,
+      "offset": 1187,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1578,
       "length": 4,
       "value": "true"
     },
@@ -1157,56 +1164,56 @@
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 2746,
+      "offset": 2813,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "Array",
-      "offset": 3319,
+      "offset": 3386,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 4421,
+      "offset": 4488,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "IntegerLiteral",
-      "offset": 4441,
+      "offset": 4508,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 4531,
+      "offset": 4598,
       "length": 92,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 4577,
+      "offset": 4644,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 4622,
+      "offset": 4689,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 4792,
+      "offset": 4859,
       "length": 5,
       "value": "false"
     },
@@ -1214,48 +1221,48 @@
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
       "kind": "StringLiteral",
       "offset": 152,
-      "length": 56,
-      "value": "\"https:\/\/zhnb4hhvvi.execute-api.us-west-2.amazonaws.com\""
+      "length": 23,
+      "value": "\"https:\/\/api.mdd.io\/v1\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
       "kind": "StringLiteral",
-      "offset": 725,
+      "offset": 692,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
       "kind": "StringLiteral",
-      "offset": 736,
+      "offset": 703,
       "length": 1,
       "value": "\"\/interaction\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
       "kind": "StringLiteral",
-      "offset": 782,
+      "offset": 749,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
       "kind": "StringLiteral",
-      "offset": 841,
+      "offset": 808,
       "length": 8,
       "value": "\"apikey\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
       "kind": "StringLiteral",
-      "offset": 1340,
+      "offset": 1307,
       "length": 18,
       "value": "\"no data received\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
       "kind": "StringLiteral",
-      "offset": 1415,
+      "offset": 1382,
       "length": 16,
       "value": "\"data succeeded\""
     },
