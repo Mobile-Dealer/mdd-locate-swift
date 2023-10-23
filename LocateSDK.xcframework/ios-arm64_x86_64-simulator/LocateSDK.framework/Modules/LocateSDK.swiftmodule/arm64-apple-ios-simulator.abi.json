@@ -1135,15 +1135,22 @@
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1077,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 1189,
+      "offset": 1187,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 1580,
+      "offset": 1578,
       "length": 4,
       "value": "true"
     },
@@ -1157,56 +1164,56 @@
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 2815,
+      "offset": 2813,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "Array",
-      "offset": 3388,
+      "offset": 3386,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 4464,
+      "offset": 4462,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "IntegerLiteral",
-      "offset": 4484,
+      "offset": 4482,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 4574,
+      "offset": 4572,
       "length": 92,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 4620,
+      "offset": 4618,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 4665,
+      "offset": 4663,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 4835,
+      "offset": 4833,
       "length": 5,
       "value": "false"
     },
