@@ -1,7 +1,7 @@
 framework module LocateSDK {
   umbrella header "LocateSDK.h"
-
   export *
+
   module * { export * }
 }
 
