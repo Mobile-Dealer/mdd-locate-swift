@@ -5,12 +5,11 @@
 import CoreLocation
 import Foundation
 @_exported import LocateSDK
+import OSLog
 import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-import os.log
-import os
 public struct MddLocateSDK {
   public static var apikey: Swift.String? {
     get
