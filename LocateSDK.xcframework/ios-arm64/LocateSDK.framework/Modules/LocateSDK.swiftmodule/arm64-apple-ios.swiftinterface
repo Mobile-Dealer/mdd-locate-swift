@@ -19,6 +19,21 @@ public enum MddLocateError : Swift.Error {
   }
 }
 public struct MDDApiInteraction : Swift.Codable {
+  public var timestamp: Swift.Int {
+    get
+  }
+  public struct TrackingTag : Swift.Codable {
+    public struct Coords : Swift.Codable {
+      public func getLat() -> Swift.Double
+      public func getLon() -> Swift.Double
+      public func encode(to encoder: any Swift.Encoder) throws
+      public init(from decoder: any Swift.Decoder) throws
+    }
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public func getTimestamp() -> Swift.Int
+  public func getTrackingTags() -> [LocateSDK.MDDApiInteraction.TrackingTag]
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }

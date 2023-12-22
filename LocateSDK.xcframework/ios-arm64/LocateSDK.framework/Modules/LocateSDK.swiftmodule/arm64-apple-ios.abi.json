@@ -204,6 +204,304 @@
         "printedName": "MDDApiInteraction",
         "children": [
           {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9LocateSDK17MDDApiInteractionV9timestampSivp",
+            "mangledName": "$s9LocateSDK17MDDApiInteractionV9timestampSivp",
+            "moduleName": "LocateSDK",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9LocateSDK17MDDApiInteractionV9timestampSivg",
+                "mangledName": "$s9LocateSDK17MDDApiInteractionV9timestampSivg",
+                "moduleName": "LocateSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "TrackingTag",
+            "printedName": "TrackingTag",
+            "children": [
+              {
+                "kind": "TypeDecl",
+                "name": "Coords",
+                "printedName": "Coords",
+                "children": [
+                  {
+                    "kind": "Function",
+                    "name": "getLat",
+                    "printedName": "getLat()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:9LocateSDK17MDDApiInteractionV11TrackingTagV6CoordsV6getLatSdyF",
+                    "mangledName": "$s9LocateSDK17MDDApiInteractionV11TrackingTagV6CoordsV6getLatSdyF",
+                    "moduleName": "LocateSDK",
+                    "declAttributes": [
+                      "AccessControl"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "getLon",
+                    "printedName": "getLon()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:9LocateSDK17MDDApiInteractionV11TrackingTagV6CoordsV6getLonSdyF",
+                    "mangledName": "$s9LocateSDK17MDDApiInteractionV11TrackingTagV6CoordsV6getLonSdyF",
+                    "moduleName": "LocateSDK",
+                    "declAttributes": [
+                      "AccessControl"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(from:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Coords",
+                        "printedName": "LocateSDK.MDDApiInteraction.TrackingTag.Coords",
+                        "usr": "s:9LocateSDK17MDDApiInteractionV11TrackingTagV6CoordsV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Decoder",
+                        "printedName": "Swift.Decoder",
+                        "usr": "s:s7DecoderP"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:9LocateSDK17MDDApiInteractionV11TrackingTagV6CoordsV4fromAGs7Decoder_p_tKcfc",
+                    "mangledName": "$s9LocateSDK17MDDApiInteractionV11TrackingTagV6CoordsV4fromAGs7Decoder_p_tKcfc",
+                    "moduleName": "LocateSDK",
+                    "implicit": true,
+                    "throwing": true,
+                    "init_kind": "Designated"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "encode",
+                    "printedName": "encode(to:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Encoder",
+                        "printedName": "Swift.Encoder",
+                        "usr": "s:s7EncoderP"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:9LocateSDK17MDDApiInteractionV11TrackingTagV6CoordsV6encode2toys7Encoder_p_tKF",
+                    "mangledName": "$s9LocateSDK17MDDApiInteractionV11TrackingTagV6CoordsV6encode2toys7Encoder_p_tKF",
+                    "moduleName": "LocateSDK",
+                    "implicit": true,
+                    "throwing": true,
+                    "funcSelfKind": "NonMutating"
+                  }
+                ],
+                "declKind": "Struct",
+                "usr": "s:9LocateSDK17MDDApiInteractionV11TrackingTagV6CoordsV",
+                "mangledName": "$s9LocateSDK17MDDApiInteractionV11TrackingTagV6CoordsV",
+                "moduleName": "LocateSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Decodable",
+                    "printedName": "Decodable",
+                    "usr": "s:Se",
+                    "mangledName": "$sSe"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Encodable",
+                    "printedName": "Encodable",
+                    "usr": "s:SE",
+                    "mangledName": "$sSE"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingTag",
+                    "printedName": "LocateSDK.MDDApiInteraction.TrackingTag",
+                    "usr": "s:9LocateSDK17MDDApiInteractionV11TrackingTagV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9LocateSDK17MDDApiInteractionV11TrackingTagV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s9LocateSDK17MDDApiInteractionV11TrackingTagV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "LocateSDK",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9LocateSDK17MDDApiInteractionV11TrackingTagV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s9LocateSDK17MDDApiInteractionV11TrackingTagV6encode2toys7Encoder_p_tKF",
+                "moduleName": "LocateSDK",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:9LocateSDK17MDDApiInteractionV11TrackingTagV",
+            "mangledName": "$s9LocateSDK17MDDApiInteractionV11TrackingTagV",
+            "moduleName": "LocateSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getTimestamp",
+            "printedName": "getTimestamp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK17MDDApiInteractionV12getTimestampSiyF",
+            "mangledName": "$s9LocateSDK17MDDApiInteractionV12getTimestampSiyF",
+            "moduleName": "LocateSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTrackingTags",
+            "printedName": "getTrackingTags()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[LocateSDK.MDDApiInteraction.TrackingTag]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingTag",
+                    "printedName": "LocateSDK.MDDApiInteraction.TrackingTag",
+                    "usr": "s:9LocateSDK17MDDApiInteractionV11TrackingTagV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK17MDDApiInteractionV15getTrackingTagsSayAC0F3TagVGyF",
+            "mangledName": "$s9LocateSDK17MDDApiInteractionV15getTrackingTagsSayAC0F3TagVGyF",
+            "moduleName": "LocateSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -1632,35 +1930,35 @@
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
-      "offset": 823,
+      "offset": 1197,
       "length": 38,
       "value": "\"9B0C5617-4211-4C60-937D-38501DF4FA4F\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
-      "offset": 976,
+      "offset": 1350,
       "length": 6,
       "value": "\"%04X\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1282,
+      "offset": 1656,
       "length": 21,
       "value": "\"mddRssiNotification\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1390,
+      "offset": 1764,
       "length": 25,
       "value": "\"mddPreviousInteractions\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3031,
+      "offset": 3405,
       "length": 44,
       "value": "\"API Key must be set to start tracking tags\""
     },
