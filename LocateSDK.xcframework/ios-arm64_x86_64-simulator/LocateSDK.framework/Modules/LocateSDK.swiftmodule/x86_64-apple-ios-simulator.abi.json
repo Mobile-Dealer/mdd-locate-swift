@@ -23,6 +23,538 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "MddLocateError",
+        "printedName": "MddLocateError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "trackingTagMismatch",
+            "printedName": "trackingTagMismatch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LocateSDK.MddLocateError.Type) -> LocateSDK.MddLocateError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MddLocateError",
+                    "printedName": "LocateSDK.MddLocateError",
+                    "usr": "s:9LocateSDK03MddA5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LocateSDK.MddLocateError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MddLocateError",
+                        "printedName": "LocateSDK.MddLocateError",
+                        "usr": "s:9LocateSDK03MddA5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9LocateSDK03MddA5ErrorO19trackingTagMismatchyA2CmF",
+            "mangledName": "$s9LocateSDK03MddA5ErrorO19trackingTagMismatchyA2CmF",
+            "moduleName": "LocateSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MddLocateError",
+                "printedName": "LocateSDK.MddLocateError",
+                "usr": "s:9LocateSDK03MddA5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MddLocateError",
+                "printedName": "LocateSDK.MddLocateError",
+                "usr": "s:9LocateSDK03MddA5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK03MddA5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9LocateSDK03MddA5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "LocateSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9LocateSDK03MddA5ErrorO9hashValueSivp",
+            "mangledName": "$s9LocateSDK03MddA5ErrorO9hashValueSivp",
+            "moduleName": "LocateSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9LocateSDK03MddA5ErrorO9hashValueSivg",
+                "mangledName": "$s9LocateSDK03MddA5ErrorO9hashValueSivg",
+                "moduleName": "LocateSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK03MddA5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9LocateSDK03MddA5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "LocateSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9LocateSDK03MddA5ErrorO",
+        "mangledName": "$s9LocateSDK03MddA5ErrorO",
+        "moduleName": "LocateSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MDDApiInteraction",
+        "printedName": "MDDApiInteraction",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MDDApiInteraction",
+                "printedName": "LocateSDK.MDDApiInteraction",
+                "usr": "s:9LocateSDK17MDDApiInteractionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9LocateSDK17MDDApiInteractionV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9LocateSDK17MDDApiInteractionV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LocateSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK17MDDApiInteractionV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9LocateSDK17MDDApiInteractionV6encode2toys7Encoder_p_tKF",
+            "moduleName": "LocateSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9LocateSDK17MDDApiInteractionV",
+        "mangledName": "$s9LocateSDK17MDDApiInteractionV",
+        "moduleName": "LocateSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MddDetectorProximity",
+        "printedName": "MddDetectorProximity",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LocateSDK.MddDetectorProximity.Type) -> LocateSDK.MddDetectorProximity",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MddDetectorProximity",
+                    "printedName": "LocateSDK.MddDetectorProximity",
+                    "usr": "s:9LocateSDK20MddDetectorProximityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LocateSDK.MddDetectorProximity.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MddDetectorProximity",
+                        "printedName": "LocateSDK.MddDetectorProximity",
+                        "usr": "s:9LocateSDK20MddDetectorProximityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9LocateSDK20MddDetectorProximityO7unknownyA2CmF",
+            "mangledName": "$s9LocateSDK20MddDetectorProximityO7unknownyA2CmF",
+            "moduleName": "LocateSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "near",
+            "printedName": "near",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LocateSDK.MddDetectorProximity.Type) -> LocateSDK.MddDetectorProximity",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MddDetectorProximity",
+                    "printedName": "LocateSDK.MddDetectorProximity",
+                    "usr": "s:9LocateSDK20MddDetectorProximityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LocateSDK.MddDetectorProximity.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MddDetectorProximity",
+                        "printedName": "LocateSDK.MddDetectorProximity",
+                        "usr": "s:9LocateSDK20MddDetectorProximityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9LocateSDK20MddDetectorProximityO4nearyA2CmF",
+            "mangledName": "$s9LocateSDK20MddDetectorProximityO4nearyA2CmF",
+            "moduleName": "LocateSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "immediate",
+            "printedName": "immediate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LocateSDK.MddDetectorProximity.Type) -> LocateSDK.MddDetectorProximity",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MddDetectorProximity",
+                    "printedName": "LocateSDK.MddDetectorProximity",
+                    "usr": "s:9LocateSDK20MddDetectorProximityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LocateSDK.MddDetectorProximity.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MddDetectorProximity",
+                        "printedName": "LocateSDK.MddDetectorProximity",
+                        "usr": "s:9LocateSDK20MddDetectorProximityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9LocateSDK20MddDetectorProximityO9immediateyA2CmF",
+            "mangledName": "$s9LocateSDK20MddDetectorProximityO9immediateyA2CmF",
+            "moduleName": "LocateSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "far",
+            "printedName": "far",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LocateSDK.MddDetectorProximity.Type) -> LocateSDK.MddDetectorProximity",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MddDetectorProximity",
+                    "printedName": "LocateSDK.MddDetectorProximity",
+                    "usr": "s:9LocateSDK20MddDetectorProximityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LocateSDK.MddDetectorProximity.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MddDetectorProximity",
+                        "printedName": "LocateSDK.MddDetectorProximity",
+                        "usr": "s:9LocateSDK20MddDetectorProximityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9LocateSDK20MddDetectorProximityO3faryA2CmF",
+            "mangledName": "$s9LocateSDK20MddDetectorProximityO3faryA2CmF",
+            "moduleName": "LocateSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MddDetectorProximity",
+                "printedName": "LocateSDK.MddDetectorProximity",
+                "usr": "s:9LocateSDK20MddDetectorProximityO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MddDetectorProximity",
+                "printedName": "LocateSDK.MddDetectorProximity",
+                "usr": "s:9LocateSDK20MddDetectorProximityO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK20MddDetectorProximityO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9LocateSDK20MddDetectorProximityO2eeoiySbAC_ACtFZ",
+            "moduleName": "LocateSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9LocateSDK20MddDetectorProximityO9hashValueSivp",
+            "mangledName": "$s9LocateSDK20MddDetectorProximityO9hashValueSivp",
+            "moduleName": "LocateSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9LocateSDK20MddDetectorProximityO9hashValueSivg",
+                "mangledName": "$s9LocateSDK20MddDetectorProximityO9hashValueSivg",
+                "moduleName": "LocateSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK20MddDetectorProximityO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9LocateSDK20MddDetectorProximityO4hash4intoys6HasherVz_tF",
+            "moduleName": "LocateSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9LocateSDK20MddDetectorProximityO",
+        "mangledName": "$s9LocateSDK20MddDetectorProximityO",
+        "moduleName": "LocateSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "MddLocateSDK",
         "printedName": "MddLocateSDK",
         "children": [
@@ -137,6 +669,53 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "previousInteractionsNotification",
+            "printedName": "previousInteractionsNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9LocateSDK03MddaB0V32previousInteractionsNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s9LocateSDK03MddaB0V32previousInteractionsNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "LocateSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9LocateSDK03MddaB0V32previousInteractionsNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s9LocateSDK03MddaB0V32previousInteractionsNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "LocateSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "configure",
             "printedName": "configure(apikey:)",
@@ -240,14 +819,14 @@
           },
           {
             "kind": "Function",
-            "name": "getDetectedRssi",
-            "printedName": "getDetectedRssi(trackingTagId:)",
+            "name": "getDetectedProximity",
+            "printedName": "getDetectedProximity(trackingTagId:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "MddDetectorProximity",
+                "printedName": "LocateSDK.MddDetectorProximity",
+                "usr": "s:9LocateSDK20MddDetectorProximityO"
               },
               {
                 "kind": "TypeNominal",
@@ -257,8 +836,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9LocateSDK03MddaB0V15getDetectedRssi13trackingTagIdSiSS_tKFZ",
-            "mangledName": "$s9LocateSDK03MddaB0V15getDetectedRssi13trackingTagIdSiSS_tKFZ",
+            "usr": "s:9LocateSDK03MddaB0V20getDetectedProximity13trackingTagIdAA0c8DetectorF0OSS_tKFZ",
+            "mangledName": "$s9LocateSDK03MddaB0V20getDetectedProximity13trackingTagIdAA0c8DetectorF0OSS_tKFZ",
             "moduleName": "LocateSDK",
             "static": true,
             "declAttributes": [
@@ -742,6 +1321,35 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "getPreviousInteractions",
+            "printedName": "getPreviousInteractions()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[LocateSDK.MDDApiInteraction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MDDApiInteraction",
+                    "printedName": "LocateSDK.MDDApiInteraction",
+                    "usr": "s:9LocateSDK17MDDApiInteractionV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LocateSDK13MddTagTrackerC23getPreviousInteractionsSayAA17MDDApiInteractionVGyF",
+            "mangledName": "$s9LocateSDK13MddTagTrackerC23getPreviousInteractionsSayAA17MDDApiInteractionVGyF",
+            "moduleName": "LocateSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -1017,336 +1625,364 @@
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
-      "offset": 268,
+      "offset": 257,
+      "length": 5,
+      "value": "\"2.0\""
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 823,
       "length": 38,
       "value": "\"9B0C5617-4211-4C60-937D-38501DF4FA4F\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
-      "offset": 421,
+      "offset": 976,
       "length": 6,
       "value": "\"%04X\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
-      "offset": 727,
+      "offset": 1282,
       "length": 21,
       "value": "\"mddRssiNotification\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2337,
+      "offset": 1390,
+      "length": 25,
+      "value": "\"mddPreviousInteractions\""
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 3031,
       "length": 44,
       "value": "\"API Key must be set to start tracking tags\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 383,
+      "offset": 286,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
       "kind": "StringLiteral",
-      "offset": 430,
+      "offset": 333,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1006,
+      "offset": 909,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1017,
+      "offset": 920,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1070,
+      "offset": 973,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1081,
+      "offset": 984,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1354,
+      "offset": 1257,
       "length": 38,
       "value": "\"9B0C5617-4211-4C60-937D-38501DF4FA4F\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1556,
+      "offset": 1459,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1607,
+      "offset": 1510,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1618,
+      "offset": 1521,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1671,
+      "offset": 1574,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1682,
+      "offset": 1585,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1953,
+      "offset": 1856,
       "length": 38,
       "value": "\"9B0C5617-4211-4C60-937D-38501DF4FA4F\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2434,
+      "offset": 2337,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 835,
-      "length": 5,
-      "value": "\"2.0\""
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2438,
+      "length": 3,
+      "value": "-96"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2510,
+      "length": 3,
+      "value": "-70"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2583,
+      "length": 3,
+      "value": "-50"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 1455,
+      "offset": 1038,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 1590,
+      "offset": 1173,
       "length": 21,
       "value": "\"io.mdd.mddlocatesdk\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 1623,
+      "offset": 1206,
       "length": 15,
       "value": "\"MddTagTracker\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 1892,
+      "offset": 1536,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 1205,
+      "offset": 788,
       "length": 13,
       "value": "\"LocateSDK.MddTagTracker\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 3590,
+      "offset": 3353,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "IntegerLiteral",
-      "offset": 4294,
+      "offset": 4057,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "IntegerLiteral",
-      "offset": 6664,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6685,
+      "offset": 5227,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "IntegerLiteral",
-      "offset": 6812,
+      "offset": 6816,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "IntegerLiteral",
-      "offset": 6836,
+      "offset": 6837,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6964,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 6963,
+      "offset": 7091,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 7045,
+      "offset": 7173,
       "length": 96,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 7062,
+      "offset": 7190,
       "length": 6,
       "value": "\"%04X\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 7093,
+      "offset": 7221,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 7109,
+      "offset": 7237,
       "length": 6,
       "value": "\"%04X\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 7140,
+      "offset": 7268,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 7239,
+      "offset": 7367,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 7823,
+      "offset": 7951,
       "length": 105,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 7840,
+      "offset": 7968,
       "length": 6,
       "value": "\"%04X\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 7871,
+      "offset": 7999,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 7887,
+      "offset": 8015,
       "length": 6,
       "value": "\"%04X\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 7918,
+      "offset": 8046,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 7927,
+      "offset": 8055,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 7960,
+      "offset": 8088,
       "length": 96,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 7977,
+      "offset": 8105,
       "length": 6,
       "value": "\"%04X\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 8008,
+      "offset": 8136,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 8024,
+      "offset": 8152,
       "length": 6,
       "value": "\"%04X\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
-      "offset": 8055,
+      "offset": 8183,
       "length": 2,
       "value": "\"\""
     },

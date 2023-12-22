@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		4FGnvw4BliJ1x0Cf7E4qpaTeaVQ=
+		sw7n0Nv4qDErLLvHhV6fhuBgBq0=
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		1HVg1dcG3zPfX1bmRjwbRreT2Wc=
+		RrZ5cPY3JLGeVKVsm1+vFD8d6GI=
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		1HVg1dcG3zPfX1bmRjwbRreT2Wc=
+		RrZ5cPY3JLGeVKVsm1+vFD8d6GI=
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Wff4bV5fiJx7Z8lERx7feQe706w=
+		mQQDIHaAWOwf2yE73BDfQckF5ao=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0hy22+HwsbPw6cFfVNO1/PUSs4vlS4xRSD2C94AsRbs=
+			TdUCs1TOiLikRI4ya3cMy3W/OwWgiQQipzRzZ9N4QuA=
 			</data>
 		</dict>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HM6GTBoZHyNYMF/m/4FkvaOzVDB3jqiR8gkW0WZ6xwI=
+			X34W6kMJZOH3pcuDtpqOIZCukNPwTmqkgUcgeBWoBt0=
 			</data>
 		</dict>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HM6GTBoZHyNYMF/m/4FkvaOzVDB3jqiR8gkW0WZ6xwI=
+			X34W6kMJZOH3pcuDtpqOIZCukNPwTmqkgUcgeBWoBt0=
 			</data>
 		</dict>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LKj8flqH6pivTz1DUOhRc7qkqB4caaWg8kfbs4vaOxE=
+			9LUMLDP0++OGYIuPoC9wV/aILcwKe5JZZJz0B2ght8Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

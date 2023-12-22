@@ -10,16 +10,40 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum MddLocateError : Swift.Error {
+  case trackingTagMismatch
+  public static func == (a: LocateSDK.MddLocateError, b: LocateSDK.MddLocateError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct MDDApiInteraction : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum MddDetectorProximity {
+  case unknown
+  case near
+  case immediate
+  case far
+  public static func == (a: LocateSDK.MddDetectorProximity, b: LocateSDK.MddDetectorProximity) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct MddLocateSDK {
   public static var apikey: Swift.String? {
     get
   }
   public static let rssiNotification: Foundation.Notification.Name
+  public static let previousInteractionsNotification: Foundation.Notification.Name
   public static func configure(apikey: Swift.String)
   public static func startTrackingTags(username: Swift.String)
   public static func stopTrackingTags()
   public static func startDetecting(trackingTagId: Swift.String)
-  public static func getDetectedRssi(trackingTagId: Swift.String) throws -> Swift.Int
+  public static func getDetectedProximity(trackingTagId: Swift.String) throws -> LocateSDK.MddDetectorProximity
   public static func stopDetecting(trackingTagId: Swift.String)
   public static func pair(orgId: Swift.String, assetId: Swift.String, trackingTagId: Swift.String)
   public static func loadAssetData(orgId: Swift.String, assetId: Swift.String)
@@ -38,6 +62,7 @@ extension LocateSDK.MddDetector {
 @objc @_hasMissingDesignatedInitializers public class MddTagTracker : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
   public func startTracking(username: Swift.String)
   public func stopTracking()
+  public func getPreviousInteractions() -> [LocateSDK.MDDApiInteraction]
   @objc deinit
 }
 extension LocateSDK.MddTagTracker {
@@ -46,3 +71,7 @@ extension LocateSDK.MddTagTracker {
   @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
   @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didRange beacons: [CoreLocation.CLBeacon], satisfying beaconConstraint: CoreLocation.CLBeaconIdentityConstraint)
 }
+extension LocateSDK.MddLocateError : Swift.Equatable {}
+extension LocateSDK.MddLocateError : Swift.Hashable {}
+extension LocateSDK.MddDetectorProximity : Swift.Equatable {}
+extension LocateSDK.MddDetectorProximity : Swift.Hashable {}
