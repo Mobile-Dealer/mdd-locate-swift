@@ -2103,27 +2103,6 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2438,
-      "length": 3,
-      "value": "-96"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2510,
-      "length": 3,
-      "value": "-70"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2583,
-      "length": 3,
-      "value": "-50"
-    },
-    {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
       "offset": 1038,
