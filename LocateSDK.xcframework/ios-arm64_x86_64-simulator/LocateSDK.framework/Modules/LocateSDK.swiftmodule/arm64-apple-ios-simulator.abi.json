@@ -376,6 +376,48 @@
                 ]
               },
               {
+                "kind": "Function",
+                "name": "getCoords",
+                "printedName": "getCoords()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coords",
+                    "printedName": "LocateSDK.MDDApiInteraction.TrackingTag.Coords",
+                    "usr": "s:9LocateSDK17MDDApiInteractionV11TrackingTagV6CoordsV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9LocateSDK17MDDApiInteractionV11TrackingTagV9getCoordsAE0H0VyF",
+                "mangledName": "$s9LocateSDK17MDDApiInteractionV11TrackingTagV9getCoordsAE0H0VyF",
+                "moduleName": "LocateSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getTrackingTagId",
+                "printedName": "getTrackingTagId()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9LocateSDK17MDDApiInteractionV11TrackingTagV03geteF2IdSSyF",
+                "mangledName": "$s9LocateSDK17MDDApiInteractionV11TrackingTagV03geteF2IdSSyF",
+                "moduleName": "LocateSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(from:)",
@@ -1930,35 +1972,35 @@
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1197,
+      "offset": 1372,
       "length": 38,
       "value": "\"9B0C5617-4211-4C60-937D-38501DF4FA4F\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1350,
+      "offset": 1525,
       "length": 6,
       "value": "\"%04X\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1656,
+      "offset": 1831,
       "length": 21,
       "value": "\"mddRssiNotification\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1764,
+      "offset": 1939,
       "length": 25,
       "value": "\"mddPreviousInteractions\""
     },
     {
       "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3405,
+      "offset": 3580,
       "length": 44,
       "value": "\"API Key must be set to start tracking tags\""
     },
