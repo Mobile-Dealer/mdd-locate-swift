@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "MddLocateSdk"
-    s.version      = "0.0.11"
+    s.version      = "0.0.13"
     s.summary      = "Pod version of the ios sdk for mdd locate."
     #s.description  = <<-DESC
     #An extended description of MyFramework project.
