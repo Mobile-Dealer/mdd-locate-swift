@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "MddLocateSdk"
-    s.version      = "0.0.13"
+    s.version      = "0.0.14"
     s.summary      = "Pod version of the ios sdk for mdd locate."
     #s.description  = <<-DESC
     #An extended description of MyFramework project.
@@ -13,8 +13,6 @@ Pod::Spec.new do |s|
                 }
     s.author             = "Mobile Dealer Data" 
     s.source       = { :git => "/Users/marcchapman/dev/mdd/mdd-locate-swift", :branch => "podspec", :tag => "#{s.version}" }    
-    s.source_files = "LocateSDK.xcframework/Headers/**/*.h"
-    #s.public_header_files = "LocateSDK.xcframework/Headers/*.h"
     s.vendored_frameworks = "LocateSDK.xcframework"
     s.platform = :ios
     s.swift_version = "4.2"
