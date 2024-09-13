@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/LocateSDK-Swift.h</key>
 		<data>
-		0Xq2iOTKzOVlx5Z1jOItIEbw9RY=
+		AwHcElRR8Brhw1JVkHx6e3/nTWA=
 		</data>
 		<key>Headers/LocateSDK.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/7YdfO/XujQ6FQo8jLOv4n4+lBg=
+		6Rc77zfo6zeF30AcS/TTqXW7OtM=
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		+8dqFpBUcRemd2MuEmXNs71Eys4=
+		AbJl4piwyGA1RFewq04rAGG6ssk=
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		1+Gk2OkWSI0N8qEqOQRN1PPTK2w=
+		h8dTVNDVoR6wS7dEq6CLY6Kebp4=
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		hMNkJqw2fP8sKMrbhcYFxnDSdKc=
+		EkmzjyATQvPm1+KGiu7it6SSC0w=
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		1+Gk2OkWSI0N8qEqOQRN1PPTK2w=
+		h8dTVNDVoR6wS7dEq6CLY6Kebp4=
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		x3714/9u66OftaqfuL+QCoVKOZc=
+		lCUkhUTDJ1+H/JyvvxwOHQN0Mzs=
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+8dqFpBUcRemd2MuEmXNs71Eys4=
+		AbJl4piwyGA1RFewq04rAGG6ssk=
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		AE+UdeKw0y8FxJDM9jYcqaZMvcg=
+		prPJe9QEmFxKtzTQeWPReIpvCtc=
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		esZLkb1scvJZFuIqX4ZN6dRTPTQ=
+		Pqbdwvu+5MmRe16lAbXHcVWEBZk=
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		AE+UdeKw0y8FxJDM9jYcqaZMvcg=
+		prPJe9QEmFxKtzTQeWPReIpvCtc=
 		</data>
 		<key>Modules/LocateSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		k03y1n/KKkTWCTJwufwZ5LAuHYI=
+		qXw+HYHHscGqLVkUYdNjyzaCYms=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ssW84bQ+ADzymDH4h3LgRqPfdIAPd1bQ1NV/Gqogyfs=
+			pniUo21xUqRfHIIwp4jWqJNDSf6+qH8wb1EvWtOKn4Q=
 			</data>
 		</dict>
 		<key>Headers/LocateSDK.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O5tvvbZmakRE6KmWI3iYEYxJXFdeemJw2h1rE14t7/M=
+			Hzn1AK08aV+3YSVEXt59EYVnrmquTn31aPpwFn9BnX4=
 			</data>
 		</dict>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AHnr4UzMeIkOlmgF646n57JncZr7JJ4Uqz5X1VwdF3I=
+			4DpyhgTImDrSsmhzhJOOuN8ECJjx1Kg79JXyOEM9mBM=
 			</data>
 		</dict>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bZckSY9wbnf+ggC1Zed/1EQuvZGfvsPoIuZiwm71PcM=
+			IfsnG2j/jKxfVxv9PRhYd/daiQI6KKhCc3YDnbJKScU=
 			</data>
 		</dict>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AHnr4UzMeIkOlmgF646n57JncZr7JJ4Uqz5X1VwdF3I=
+			4DpyhgTImDrSsmhzhJOOuN8ECJjx1Kg79JXyOEM9mBM=
 			</data>
 		</dict>
 		<key>Modules/LocateSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yQb3fODjoZc+mZc/mYvDXGwavBBfEobyzEL8GuALIvs=
+			dJewVGT9BdQG0gUCK3N4uvM0GgnsPJVJ78XMrxDLTsc=
 			</data>
 		</dict>
 		<key>Modules/LocateSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O5tvvbZmakRE6KmWI3iYEYxJXFdeemJw2h1rE14t7/M=
+			Hzn1AK08aV+3YSVEXt59EYVnrmquTn31aPpwFn9BnX4=
 			</data>
 		</dict>
 		<key>Modules/LocateSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n4R6cuGzghKPl9Ei13d+fWProtEm8ZJqQWTDXV7smbQ=
+			KMHPlG7EfCPcPr2WXgCoWUl2t63BMc//imx5jNtmufA=
 			</data>
 		</dict>
 		<key>Modules/LocateSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7IlFa7OY2PlmZvybyojy1ksX3QBj0AM0lEbCinVPRU4=
+			BkSoXo7wQ0/F8vtRiZT6lt/xVeer4TdLyzROJHA6hqo=
 			</data>
 		</dict>
 		<key>Modules/LocateSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n4R6cuGzghKPl9Ei13d+fWProtEm8ZJqQWTDXV7smbQ=
+			KMHPlG7EfCPcPr2WXgCoWUl2t63BMc//imx5jNtmufA=
 			</data>
 		</dict>
 		<key>Modules/LocateSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tisZTx/WgDw/isHxHdT9Fe7td7Z9Lm8mzMK4CH1Tub0=
+			ARhJwPzIxePlDI0pGK1gAS9KB4pyW8YEcak2P+t1LIU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

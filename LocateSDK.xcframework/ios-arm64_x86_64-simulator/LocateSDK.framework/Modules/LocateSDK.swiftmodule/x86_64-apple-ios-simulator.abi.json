@@ -313,7 +313,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Decoder",
-                        "printedName": "Swift.Decoder",
+                        "printedName": "any Swift.Decoder",
                         "usr": "s:s7DecoderP"
                       }
                     ],
@@ -338,7 +338,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Encoder",
-                        "printedName": "Swift.Encoder",
+                        "printedName": "any Swift.Encoder",
                         "usr": "s:s7EncoderP"
                       }
                     ],
@@ -431,7 +431,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -456,7 +456,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Encoder",
-                    "printedName": "Swift.Encoder",
+                    "printedName": "any Swift.Encoder",
                     "usr": "s:s7EncoderP"
                   }
                 ],
@@ -557,7 +557,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -582,7 +582,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -1452,7 +1452,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -1764,7 +1764,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -1963,406 +1963,112 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
+      "filePath": "\/Users\/marcchapman\/dev\/mdd\/mdd-locate-sdk\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
       "offset": 257,
       "length": 5,
       "value": "\"2.0\""
     },
     {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
+      "filePath": "\/Users\/marcchapman\/dev\/mdd\/mdd-locate-sdk\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
       "offset": 1372,
       "length": 38,
       "value": "\"9B0C5617-4211-4C60-937D-38501DF4FA4F\""
     },
     {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
+      "filePath": "\/Users\/marcchapman\/dev\/mdd\/mdd-locate-sdk\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1525,
+      "offset": 1469,
+      "length": 38,
+      "value": "\"6b4a0001-ef54-4806-bcda-94cb720f058d\""
+    },
+    {
+      "filePath": "\/Users\/marcchapman\/dev\/mdd\/mdd-locate-sdk\/LocateSDK\/MddLocateSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1713,
       "length": 6,
       "value": "\"%04X\""
     },
     {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
+      "filePath": "\/Users\/marcchapman\/dev\/mdd\/mdd-locate-sdk\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1831,
+      "offset": 2019,
       "length": 21,
       "value": "\"mddRssiNotification\""
     },
     {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
+      "filePath": "\/Users\/marcchapman\/dev\/mdd\/mdd-locate-sdk\/LocateSDK\/MddLocateSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1939,
+      "offset": 2127,
       "length": 25,
       "value": "\"mddPreviousInteractions\""
     },
     {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddLocateSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 3580,
-      "length": 44,
-      "value": "\"API Key must be set to start tracking tags\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
+      "filePath": "\/Users\/marcchapman\/dev\/mdd\/mdd-locate-sdk\/LocateSDK\/MddDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 286,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
+      "filePath": "\/Users\/marcchapman\/dev\/mdd\/mdd-locate-sdk\/LocateSDK\/MddDetector.swift",
       "kind": "StringLiteral",
       "offset": 333,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 909,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 920,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 973,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 984,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1257,
-      "length": 38,
-      "value": "\"9B0C5617-4211-4C60-937D-38501DF4FA4F\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1459,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1510,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1521,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1574,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1585,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 1856,
-      "length": 38,
-      "value": "\"9B0C5617-4211-4C60-937D-38501DF4FA4F\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2337,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
+      "filePath": "\/Users\/marcchapman\/dev\/mdd\/mdd-locate-sdk\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
       "offset": 1038,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
+      "filePath": "\/Users\/marcchapman\/dev\/mdd\/mdd-locate-sdk\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
       "offset": 1173,
       "length": 21,
       "value": "\"io.mdd.mddlocatesdk\""
     },
     {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
+      "filePath": "\/Users\/marcchapman\/dev\/mdd\/mdd-locate-sdk\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
       "offset": 1206,
       "length": 15,
       "value": "\"MddTagTracker\""
     },
     {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1536,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
+      "filePath": "\/Users\/marcchapman\/dev\/mdd\/mdd-locate-sdk\/LocateSDK\/MddTagTracker.swift",
       "kind": "StringLiteral",
       "offset": 788,
       "length": 13,
       "value": "\"LocateSDK.MddTagTracker\""
     },
     {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3353,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4057,
-      "length": 2,
-      "value": "45"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5227,
-      "length": 2,
-      "value": "25"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6858,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6879,
-      "length": 2,
-      "value": "25"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7006,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7133,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 7215,
-      "length": 96,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 7232,
-      "length": 6,
-      "value": "\"%04X\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 7263,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 7279,
-      "length": 6,
-      "value": "\"%04X\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 7310,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7409,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 7993,
-      "length": 105,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 8010,
-      "length": 6,
-      "value": "\"%04X\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 8041,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 8057,
-      "length": 6,
-      "value": "\"%04X\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 8088,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 8097,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 8130,
-      "length": 96,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 8147,
-      "length": 6,
-      "value": "\"%04X\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 8178,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 8194,
-      "length": 6,
-      "value": "\"%04X\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddTagTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 8225,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
+      "filePath": "\/Users\/marcchapman\/dev\/mdd\/mdd-locate-sdk\/LocateSDK\/MddAPI.swift",
       "kind": "StringLiteral",
       "offset": 165,
       "length": 23,
       "value": "\"https:\/\/api.mdd.io\/v1\""
     },
     {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
+      "filePath": "\/Users\/marcchapman\/dev\/mdd\/mdd-locate-sdk\/LocateSDK\/MddAPI.swift",
       "kind": "StringLiteral",
       "offset": 281,
       "length": 21,
       "value": "\"io.mdd.mddlocatesdk\""
     },
     {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
+      "filePath": "\/Users\/marcchapman\/dev\/mdd\/mdd-locate-sdk\/LocateSDK\/MddAPI.swift",
       "kind": "StringLiteral",
       "offset": 314,
       "length": 8,
       "value": "\"MddAPI\""
     },
     {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 807,
-      "length": 24,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 818,
-      "length": 1,
-      "value": "\"\/interaction\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 864,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 923,
-      "length": 8,
-      "value": "\"apikey\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 1415,
-      "length": 19,
-      "value": "\"publish succeeded\""
-    },
-    {
-      "filePath": "\/Users\/ryanvink\/XCodeProjects\/LocateSDK\/LocateSDK\/MddAPI.swift",
+      "filePath": "\/Users\/marcchapman\/dev\/mdd\/mdd-locate-sdk\/LocateSDK\/MddAPI.swift",
       "kind": "StringLiteral",
       "offset": 113,
       "length": 6,
