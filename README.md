@@ -187,3 +187,10 @@ struct ContentView_Previews: PreviewProvider {
 5. **Updates**: Keep an eye on the official MddLocateSDK repository for any updates or changes. Regularly updating the SDK ensures that you're taking advantage of the latest features and improvements.
 
 Remember, if you have any questions or run into any issues, reach out to us at [support@mdd.io](mailto:support@mdd.io). We're here to help!
+
+
+## Cocoapods
+If you would like to add this via cocoapods, add this to your Podfile:
+```
+pod 'MddLocateSdk', :git => 'https://github.com/Mobile-Dealer/mdd-locate-swift.git', '0.0.10'
+```
