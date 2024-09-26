@@ -192,5 +192,5 @@ Remember, if you have any questions or run into any issues, reach out to us at [
 ## Cocoapods
 If you would like to add this via cocoapods, add this to your Podfile:
 ```
-pod 'MddLocateSdk', :git => 'https://github.com/Mobile-Dealer/mdd-locate-swift.git', '0.0.10'
+pod 'MddLocateSdk', :git => 'https://github.com/Mobile-Dealer/mdd-locate-swift.git', '1.0.0'
 ```

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "MddLocateSdk"
-    s.version      = "0.0.10"
+    s.version      = "1.0.0"
     s.summary      = "ios sdk for mdd locate."
     s.homepage     = "https://github.com/Mobile-Dealer/mdd-locate-swift"
     s.license = { :type => 'Copyright', :text => <<-LICENSE
